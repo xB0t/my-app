@@ -12,14 +12,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='my-app/' element={<Home />} />
+        <Route path='my-app/about' element={<About />} />
       </Routes>
-
-      <h1>WORKING !!!</h1>
-
-      <Home />
-      <About />
 
     </>
 
